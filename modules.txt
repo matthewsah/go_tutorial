@@ -1,0 +1,11 @@
+A module is a releasable collections of go packages that are released together
+
+it is common for a reposirtory to have a single module in it
+
+The module path is the import path prefix for all packages within the module
+
+ex:
+
+module github.com/project/welcomePage
+go 1.20
+require github.com/google/examplePackage v1.2.4
