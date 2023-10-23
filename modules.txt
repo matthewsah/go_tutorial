@@ -9,3 +9,7 @@ ex:
 module github.com/project/welcomePage
 go 1.20
 require github.com/google/examplePackage v1.2.4
+
+No central location for third party packages, uses import path as remote url
+
+to download the module golang.orgs/x/tools, go downloads the file from https://golang.org/x/tools
